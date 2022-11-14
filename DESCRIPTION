@@ -35,10 +35,22 @@ Imports:
     SingleCellExperiment,
     uwot,
     grDevices,
+    treeio,
+    IRanges,
+    Biobase,
+    S4Vectors,
+    SummarizedExperiment,
     SymSim
 Depends:
     R (>= 3.6.0)
 Remotes:
+    bioc::3.15/treeio,
+    bioc::release/IRanges,
+    bioc::release/Biobase,
+    bioc::release/S4Vectors,
+    bioc::release/SummarizedExperiment,
+    bioc::release/ggtree,
+    bioc::release/SingleCellExperiment,
     YosefLab/SymSim
 RoxygenNote: 7.1.1
 Config/testthat/edition: 3
